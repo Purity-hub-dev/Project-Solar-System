@@ -1,0 +1,133 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  background-image: url(/24_day_starter/images/galaxy.gif);
+}
+.container{
+  max-width: 80%;
+  margin: 0 auto;
+}
+.general_container{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+header h1{
+  color: hsl(63,33%, 99%);
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-shadow: 2px 3px #ffffff;
+
+}
+header input{
+  background-color: hsl(63,33%, 99%);;
+  padding: 17px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  width: 240px;
+  font-family: 'Montserrat', sans-serif;
+}
+header select{
+  background-color: hsl(63,33%, 99%);
+  padding: 15px;
+  outline: none;
+  border-radius: 3px;
+  width: 160px;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+header button{
+  padding: 13px;
+  cursor: pointer;
+  background-color: gray;
+  border: none;
+  color: hsl(63,33%, 99%);
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main .main_head{
+  padding: 50px;
+  margin-top: 15px;
+  width: 80%;
+  background-color: rgba(128, 128, 128, 0.2);
+}
+main .main_container{
+  display: flex; 
+  align-items: center;
+  gap: 50px;
+  color: hsl(63,33%, 99%);
+}
+.text_container{
+  background-color: rgba(128, 128, 128, 0.2); 
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  line-height: 2rem;
+}
+.calculateWeight{
+  padding: 20px;
+  width: 30%;
+  background-color: rgba(128, 128, 128, 0.2);
+  border-radius: 50%;
+  font-weight: 700;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+@media(max-width: 500px){
+  header h1{
+  font-size: 30px;
+}
+header input{
+  padding: 15px;
+  font-size: 14px;
+  width: 190px;
+}
+header select{
+  padding: 15px;
+  width: 150px;
+  font-size: 10px;
+}
+header button{
+  padding: 13px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+main .main_head{
+  padding: 20px;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.2);
+}
+main .main_container{
+  display: flex; 
+  align-items: center;
+  gap: 50px;
+  color: hsl(63,33%, 99%);
+}
+.text_container{
+  background-color: rgba(128, 128, 128, 0.2); 
+  padding: 5px;
+  font-size: 14px;
+  width: 100%;
+}
+.calculateWeight{
+  padding: 10px;
+  width: 100%;
+  font-size: 12px;
+}
+img{
+  width: 50%;
+}
+}
